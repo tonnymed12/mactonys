@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+header {
+  display: flex;
+  background: #da9042;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+h1,
+h2 {
+  color: #34495e;
+}
+section {
+  margin-bottom: 2rem;
+}
+footer {
+  background: #bdc3c7;
+  padding: 1rem;
+  text-align: center;
+}
+button {
+  margin: 6px 0;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  display: grid;
+  width: auto;
+  cursor: pointer;
+}
+div {
+  background: #6c868d;
+  color: white;
+  padding: 5rem;
+  margin-top: 5rem;
+  text-align: left;
+}
+.botones {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.botones button {
+  background-color: #f0f0f0;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-section h4 {
+  border-bottom: 1px solid #777;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 5px 0;
+  display: block;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+  }
+}
